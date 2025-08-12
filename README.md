@@ -62,8 +62,37 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+```
+package addingnumbers;
+public class MatrixAdditionExample{
 
-## OUTPUT:
+public static void main(String args[]){
+
+int a[][]={{1,3,4},{2,4,5},{3,4,2}};
+
+int b[][]={{2,1,3},{2,1,4},{1,3,2}};
+
+int c[][]=new int[3][3];
+
+for(int i=0;i<3;i++){
+
+for(int j=0;j<3;j++){
+
+c[i][j]=a[i][j]+b[i][j]; 
+
+System.out.print(c[i][j]+" ");
+
+}
+
+System.out.println();
+
+}
+
+}}
+```
+
+## OUTPUT:  
+![IMG-20250812-WA0001](https://github.com/user-attachments/assets/dacbc4ba-665c-48e2-b1d2-f678b6f9efc7)
 
 ## RESULT:
 
