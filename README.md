@@ -1,4 +1,4 @@
-# JAVA-PROGRAM-TO-PERFORM-ADDITION-OF-TWO-MATRICES-
+I'm# JAVA-PROGRAM-TO-PERFORM-ADDITION-OF-TWO-MATRICES-
 
 ## AIM:
 To Perform addition of two matrices using Java programming language.
@@ -62,8 +62,35 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+    int[][] matrix2 = {
+        {9, 8, 7},
+        {6, 5, 4},
+        {3, 2, 1}
+    };
+
+    int[][] result = new int[3][3]; // Resultant matrix
+
+    // Adding two matrices
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            result[i][j] = matrix1[i][j] + matrix2[i][j];
+        }
+    }
+
+    // Printing the result
+    System.out.println("Resultant Matrix:");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            System.out.print(result[i][j] + " ");
+        }
+        System.out.println(); // For new line after each row
+    }
+}
+
 
 ## OUTPUT:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2a25bf6d-b516-4492-8686-0aba049b3ca7" />
+
 
 ## RESULT:
 
